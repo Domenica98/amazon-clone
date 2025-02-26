@@ -1,0 +1,49 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /*mi permette di non accavallare gli elementi*/
+    background-color: #232f3e;
+    padding: 10px 20px;
+    color: white;
+}
+
+.logo{ 
+    font-size:20px;
+    font-weight: bold; /*mi modifica lo stile del logo (Amazon clone)*/
+}
+
+.logo img{
+    width: 100px; /*dimensioni del logo*/
+    height: auto;
+    cursor: pointer;
+}
+
+.search-bar{
+    width: 40%; /*allargo la barra di ricerca*/
+    padding: 5px; /* ingrantisco sopra e sotto la barra */
+    border-radius: 5px; 
+    border: none;
+}
+
+.account{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 0 15px
+}
+
+.account-icon{
+    font-size: 20px;
+    color: white;
+}
+
+
+
+
+.cart{
+    cursor: pointer; /*il cursore cambia forma e diventa la manina*/
+    font-size: 18px;
+}
