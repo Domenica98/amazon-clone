@@ -75,7 +75,22 @@
 
 
 .cart{
-    cursor: pointer; /*il cursore cambia forma e diventa la manina*/
+    display: flex;
+    align-items: center;
+    color: white;
+    cursor: pointer; 
     font-size: 18px;
+    position: relative;
 }
 
+.cart-count{
+    background-color: #ff9900;
+    color: black;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    font-size: 14px;
+}
