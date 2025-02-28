@@ -3,6 +3,7 @@ import "./Navbar.css";
 import { FaSearch } from "react-icons/fa";
 
 
+
 const Navbar = () => {
     return(
         <nav className="navbar">
@@ -20,6 +21,15 @@ const Navbar = () => {
             <div className="account">
                 <span> Ciao, Accedi</span>
                 <div className="account icon">👤</div>
+            </div>
+
+            <div className="language-selector">
+                <select>
+                    <option value="en">🇬🇧 EN</option>
+                    <option value="en">🇮🇹 IT</option>
+                    <option value="en">🇫🇷 FR</option>
+                    <option value="en">🇩🇪 DE</option>
+                </select>
             </div>
 
             <div className="orders">
